@@ -1,0 +1,10 @@
+.idea/*
+cmake-build-*/
+out/
+.idea_modules/
+*/cmake-build-debug/*
+*/.idea/*
+*/*/cmake-build-debug/*
+*/*/.idea/*
+*/target/*
+*/.ipynb_checkpoints/*
