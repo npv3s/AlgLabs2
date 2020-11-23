@@ -1,0 +1,4 @@
+pokemon,1,2,3,4
+bulbasaur,1,2,3,4,b_a,b_d
+vollaby,1,2,3,4,v_a,v_d
+bulbasaur,1,2,3,4,n_a,n_d
