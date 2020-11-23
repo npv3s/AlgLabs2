@@ -33,7 +33,7 @@ std::string Pokemon::to_string() {
         << pokemonHP << ','
         << pokemonAttack << ','
         << pokemonDefense << ','
-        << pokemonSpeed << '\n';
+        << pokemonSpeed;
     return out.str();
 }
 

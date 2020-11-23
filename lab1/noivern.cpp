@@ -26,9 +26,8 @@ std::string Noivern::to_string() {
     std::stringstream addon;
     addon << ','
           << noivernSpecialAttack << ','
-          << noivernSpecialDefense << '\n';
+          << noivernSpecialDefense;
     std::string out = Pokemon::to_string();
-    out.pop_back();
     out.append(addon.str());
     return out;
 }

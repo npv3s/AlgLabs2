@@ -26,9 +26,8 @@ std::string Bulbasaur::to_string() {
     std::stringstream addon;
     addon << ','
           << bulbasaurSpecialAttack << ','
-          << bulbasaurSpecialDefense << '\n';
+          << bulbasaurSpecialDefense;
     std::string out = Pokemon::to_string();
-    out.pop_back();
     out.append(addon.str());
     return out;
 }

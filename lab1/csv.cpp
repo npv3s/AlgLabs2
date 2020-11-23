@@ -42,7 +42,7 @@ void csv::write(std::string filename, T item, bool append) {
     // true - добавить к существующим
     std::ofstream table;
     table.open(filename, append ? std::ios::app : std::ios::trunc);
-    table << item.to_string();
+    table << item.to_string() << std::endl;
     table.close();
 }
 

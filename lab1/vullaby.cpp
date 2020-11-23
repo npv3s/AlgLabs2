@@ -26,9 +26,8 @@ std::string Vullaby::to_string() {
     std::stringstream addon;
     addon << ','
           << vullabySpecialAttack << ','
-          << vullabySpecialDefense << '\n';
+          << vullabySpecialDefense;
     std::string out = Pokemon::to_string();
-    out.pop_back();
     out.append(addon.str());
     return out;
 }
