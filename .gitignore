@@ -8,3 +8,4 @@ out/
 */*/.idea/*
 */target/*
 */.ipynb_checkpoints/*
+CMakeLists.txt
